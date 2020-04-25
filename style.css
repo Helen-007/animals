@@ -1,0 +1,195 @@
+header{
+     margin: 0 auto; /* сайт располагается по центру экрана */
+     max-width: 1920px;
+     max-height: 7212px;
+}
+
+#line_1{
+    max-width: 1160px;
+    margin: 0 auto; 
+    border-bottom: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+
+#group_1{
+    float: left;
+    width: 18.52%;    
+}
+
+#name_1{
+    font-family: Aladin, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #006D4D;
+}
+
+#name_2{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    color: #313131;
+}
+
+#address{
+    float: left;
+    margin-left: 22%;
+    overflow: hidden;
+    width: 13%;
+    transform: translateY(20%);
+}
+
+img.icon{
+    max-height: 32px;
+    float: left;
+}
+
+#address_1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #595757;
+    float: right;
+}
+
+#time{
+    float: left;
+    margin-left: 7%;
+    overflow: hidden;
+    width: 12.83%;
+    transform: translateY(15%);
+}
+
+#time_1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #595757;
+    float: right;
+}
+
+#phone{
+    float: right;
+    overflow: hidden;
+    width: 18%;
+    transform: translateY(40%);
+}
+
+#phone_1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #595757;
+    width: 70%;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url('vectors/Polygon 1.png') no-repeat center right;
+    transform: translateY(10%);
+}
+
+
+ul{
+    display: flex;
+    max-width: 1193px;
+    margin: 0.5% auto;
+}
+
+ul li{
+    list-style-type: none;
+    flex-basis: auto;
+    flex-grow: 1;
+    
+    
+}
+
+ul li a{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    border-bottom: none;
+    color: #595757;
+}
+
+ul li.active a{
+    color: #006D4D;
+}
+
+main{
+    margin: 0 auto; /* сайт располагается по центру экрана */
+    max-width: 1920px;
+    max-height: 784px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#mainblock{
+     display: flex;
+     height: 50em;
+     width: 100%;
+     margin: 0px;
+     position: relative;
+}
+
+#left{
+    background: #F2FDFF;
+    width: 33.33%;
+}
+
+#right{
+    background: #E7FFF7;
+    width: 33.33%;
+}
+
+#central{
+    width: 33.34%;
+    position: relative;
+}
+
+#slogan{
+    max-width: 1072px;
+    max-height: 139px;
+    font-family: "Times New Roman", "Times", serif;
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 74px;
+    position: absolute;
+    z-index: 10000;
+    left: 6em;
+    right: 5em;
+    top: 1.2em;
+    bottom: 20em;
+}
+
+img#mainimg{
+    height: 37em;
+    position: relative;
+    z-index: 10000;
+    right: 10em;
+    bottom: 6em;
+}
+
+#firstword{
+    text-transform: uppercase;
+    color: #006D4D;
+}
+
+#order{
+    background: #FFA953;
+    border-radius: 50px;
+    height: 56px;
+    width: 256px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 17em; 
+}
