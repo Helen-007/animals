@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 header{
      margin: 0 auto; /* сайт располагается по центру экрана */
      max-width: 1920px;
@@ -130,10 +133,11 @@ main{
 
 #mainblock{
      display: flex;
-     height: 50em;
+     height: 48em;
      width: 100%;
      margin: 0px;
      position: relative;
+     text-align: center;
 }
 
 #left{
@@ -147,6 +151,7 @@ main{
 }
 
 #central{
+    background: #F9F9F9;
     width: 33.34%;
     position: relative;
 }
@@ -160,18 +165,22 @@ main{
     line-height: 74px;
     position: absolute;
     z-index: 10000;
-    left: 6em;
+    left: 5em;
     right: 5em;
     top: 1.2em;
     bottom: 20em;
+    margin: auto;
 }
 
 img#mainimg{
-    height: 37em;
-    position: relative;
+    height: 33em;
+    position: absolute;
     z-index: 10000;
     right: 10em;
-    bottom: 6em;
+    bottom: 0em;
+    margin: auto;
+    left: 11em;
+    top: 13em;
 }
 
 #firstword{
