@@ -128,6 +128,8 @@ img.icon{
 
 @media screen and (min-device-width:600px) {
 	#phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     float: left;
     margin-left: 7%;
@@ -364,6 +366,12 @@ img#mainimg{
     margin: auto;
 }
 
+@media screen and (max-device-width:899px) {
+	#order{
+		bottom: 16em;
+	}
+}
+
 #block_1{
 	max-height: 55em;
 	margin-top: -2em;
@@ -372,6 +380,8 @@ img#mainimg{
 
 @media only screen and (min-device-width:600px) and (max-device-width:899px) {
 	#block_1{
+	background: -o-linear-gradient(left top, #F2FDFF, #ffffff, #ffffff);
+	background: -webkit-gradient(linear, left top, right bottom, from(#F2FDFF), color-stop(#ffffff), to(#ffffff));
 	background: linear-gradient(to right bottom, #F2FDFF, #ffffff, #ffffff);
 	}
 }
