@@ -1,17 +1,19 @@
 ﻿<!DOCTYPE html>
 
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Главная</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Энималс - ветклиника</title>
+    <meta name="description" content="Энималс - ветеринарная клиника в Бобруйске. Лечим собак, кошек, птиц, грызунов.">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
 
   <body>
     <header>
       <div id="line_1">
+
         <div id="group_1">
           <span id="name_1">Энималс</span><br/>
           <span id="name_2">Ветеринарная клиника</span>
@@ -19,7 +21,7 @@
 
         <div id="address">
           <img class="icon" src="vectors/004-pin.png" alt="">
-	         <span id="address_1">г Бобруйск<br/> ул Энгельса д 73</span>
+	      <span id="address_1">г Бобруйск<br/> ул Энгельса д 73</span>
         </div>
 
         <div id="time">
@@ -31,13 +33,22 @@
         <div id="phone">
           <img class="icon" src="vectors/001-smartphone.png" alt="">
           <select id="phone_1">
-	          <option>+37529<b>3674790</b></option>
+	          <option>+375293674790</option>
 	          <option>80225721689</option>
 	          <option>80225731212</option>
 	        </select>
         </div>
+
+        <div id="phone-menu">
+        	<a id="menu-button" href="mobile-menu.html">
+        		<img src="vectors/menu-button.png" alt="menu">
+        	</a>
+        	<span id="menu-label">МЕНЮ</span>
+        </div>
+
       </div>
-        <ul>
+
+      <ul id="nav-menu">
           <li class="active"><a href="#">О КЛИНИКЕ</a></li>
           <li><a href="#">УСЛУГИ И ЦЕНЫ</a></li>
           <li><a href="#">АКЦИИ</a></li>
@@ -46,30 +57,48 @@
           <li><a href="#">СТАТЬИ</a></li>
           <li><a href="#">КОНТАКТЫ</a></li>
           <li><a href="#">ВЕТАПТЕКИ</a></li>
-        </ul>
-    </header>
+      </ul>
 
-    <main>
-      <div id="mainblock">
-        <div id="slogan">
+      <div id="line_2">
+        <div id="mainblock">
+          <div id="slogan">
             <span id="firstword">лечим</span> собак, кошек, птиц, грызунов
           </div>
-          <img id="mainimg" src="images/животные.png" alt="animals"> 
-        <div id="left"></div>
-        <div id="central">
           <form>
-           <input type="button" id="order" value="Записаться на прием">
-          </form> 
-          
+              <input type="button" id="order" value="Записаться на прием">
+          </form>  
+          <img id="mainimg" src="images/animals.png" alt="animals"> 
+          <div id="left"></div>
+          <div id="central">
+            
+          </div>
+          <div id="right"></div>
+      </div>
+     </header>   
+   
+  <main>
+      <div id="block_1">
+        <div id="block_1_left">
+          <img id="MaskGroup" src="images/Mask_Group.png" alt="">
         </div>
-        <div id="right"></div>
-        
-     </div>
-    
-       
+        <div id="block_1_right">
+          <h2>Ветеринарная клиника в Бобруйске</h2>
+          <p>Мы рады приветствовать Вас на сайте нашей клиники!</p>
+          <p>Здесь Вы найдете всю интересующую информацию об услугах нашей клиники.</p>
+          <p>Мы занимаемся лечением всех видов мелких домашних животных; собак, кошек, птиц, грызунов и рептилий.</p>
+          <p>У нас работают высококвалифицированные врачи с большим опытом работы, которые постоянно совершенствуют свои профессиональные навыки, посещая симпозиумы, конференции, конгрессы и мастер классы.</p>
+          <p>Наше современное оборудование позволяет оказывать ветеринарные услуги, на всех этапах лечебного процесса, начиная с диагностики и заканчивая сложными хирургическими операциями.</p>
+          <p>В ветеринарной аптеке Вы можете приобрести все необходимые препараты, лечебные корма и товары для ухода за вашими питомцами.</p>
+          <p>Надеемся ,что посещение нашей клиники будет комфортно для Вас и ваших любимцев.</p>
+        </div>
+      </div>
+
+
+
+
+
        
     </main>
-
-
   </body>
+
 </html>
