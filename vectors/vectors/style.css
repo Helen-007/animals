@@ -1,0 +1,117 @@
+header{
+     margin: 0 auto; /* сайт располагается по центру экрана */
+     max-width: 1920px;
+}
+
+#line_1{
+    max-width: 1160px;
+    margin: 0 auto; 
+    border-bottom: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+
+#group_1{
+    float: left;
+    width: 18.52%;
+
+}
+
+#name_1{
+    font-family: Aladin, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #006D4D;
+}
+
+#name_2{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    color: #313131;
+}
+
+#address{
+    float: left;
+    margin-left: 22%;
+    overflow: hidden;
+    width: 13%;
+}
+
+img{
+    max-height: 32px;
+    float: left;
+}
+
+#address_1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #595757;
+    float: right;
+}
+
+#time{
+    float: left;
+    margin-left: 7%;
+    overflow: hidden;
+    width: 12.83%;
+}
+
+#time_1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #595757;
+    float: right;
+}
+
+#phone{
+    float: right;
+    overflow: hidden;
+    width: 18%;
+}
+
+#phone_1{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #595757;
+    width: 70%;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url('vectors/Polygon 1.png') no-repeat center right;
+}
+
+
+ul{
+    display: flex;
+    max-width: 1193px;
+    margin: 0.5% auto;
+}
+
+ul li{
+    list-style-type: none;
+    flex-basis: auto;
+    flex-grow: 1;
+    
+    
+}
+
+ul li a{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    border-bottom: none;
+    color: #595757;
+}
+
+ul li.active a{
+    color: #006D4D;
+}
